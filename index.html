@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certificate</title>
-    <style>
-        /* خلي الصورة تمتد على كامل عرض المتصفح */
-        img {
-            width: 5%;      /* عرض كامل */
-            height: 50%;     /* يحافظ على نسبة الارتفاع */
-            display: block;   /* يزيل أي فراغ تحت الصورة */
-        }
-        body {
-            margin: 0;        /* يشيل أي مسافة حول الصورة */
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate Fullscreen</title>
+<style>
+    html, body {
+        margin: 0;
+        height: 100%;
+    }
+    body {
+        background: url('certificate.jpg') no-repeat center center;
+        background-size: cover; /* يغطي الشاشة بالكامل */
+    }
+</style>
 </head>
 <body>
-    <img src="certificate.jpg" alt="My Certificate">
 </body>
 </html>
